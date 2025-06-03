@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://thumbs.dreamstime.com/b/desk-notepad-to-do-list-pens-light-pink-background-top-view-desk-notepad-to-do-list-pens-light-pink-125175912.jpg");
+}
+.con{
+    height: 65%;
+    width: 50%;
+    position: relative;
+    left :5%;
+    top:5%;
+    border: solid black 2px;
+    padding: 30px;
+    padding-left: 60px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 24px;
+    font-size: 24px;
+
+    
+}
+p{
+    font-size:30px ;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 60px;
+margin-left: -37px;
+animation: animation 3s infinite;
+}
+
+@keyframes animation{
+    0%{
+        color:pink;
+    }
+    20%{
+        color:rgb(202, 236, 203);
+    }
+    50%{
+        color:rgb(187, 188, 241);
+    }
+    70%{
+        color:rgb(241, 199, 176);
+    }
+    100%{
+        color:rgb(151, 229, 235);
+    }
+}
+.button{
+  
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    left :65%;
+    top:5%;
+    /* text-align: center; */
+    border: solid black 2px;
+    background-color: black;
+    border-radius: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+}
+
+.button input {
+    color: rgb(0, 0, 0);
+    height: 26px;
+    width:20%;
+    margin-left:10px ;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    border: none;
+    margin-top: 40px;
+}
+
+label{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: whitesmoke;
+    font-size: 26px;
+}
+
+.buttondiv{
+    width: 80%;
+   /* background-color: blanchedalmond; */
+   margin-left:180px ;
+   margin-top: 70px;
+  
+   
+}
+button{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+    
+}
